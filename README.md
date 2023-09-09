@@ -8,18 +8,16 @@ A real-time chat application built with [technology stack/tools]. This applicati
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Demo]
+- [Installation]
+- [Usage]
+- [Contributing]
+- [License]
+- [Contact]
 
 ## Features
 
 - Real-time chat with multiple users.
-- User authentication and registration.
-- [Add more features here...]
 
 ## Demo
 
@@ -38,4 +36,9 @@ To run this project locally, follow these steps:
 
    ```bash
    cd Chat_Aplication
+   
+3. Install dependencies:
+
+   ```bash
+   npm install
 
