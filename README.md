@@ -33,3 +33,9 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/TusharRB/Chat_Aplication.git
+   
+2. Navigate to the project directory:
+
+   ```bash
+   cd Chat_Aplication
+
