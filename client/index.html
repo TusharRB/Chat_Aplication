@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- It's visible only on login page -->
+
+    <form class="form-username">
+
+        <h1>Join ChatRoom</h1>
+
+        <div class="user-div">
+            
+            <input type="text" id="username-input" placeholder="Enter your username"/>
+
+            <button id="join-btn" type="submit">Join Chat</button>
+        
+        </div>
+
+    </form>
+
+
+    <!-- Chat  Screen  -->
+
+    <div class="chatroom-container">
+
+        <div class="chat-header">Welcome To Chat Room</div>
+
+        <div class="messages" id="message-container">
+
+            <!-- messages will come here -->
+
+            <div class="message">Hey (rec)</div>
+            <div class="message sent">Hello (send) </div>
+
+        </div>
+        <div class="input-div">
+
+            <!-- you can add stop button here -->
+
+            <input type="text" id="message-input" placeholder="Type your message..">
+            
+            <button id="send-button">Send</button>
+        </div>
+
+    </div>
+
+    <!-- importing all the logic of socket io in my client -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- so that we can use alternative of fetch  -->
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
